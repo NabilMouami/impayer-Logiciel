@@ -1,0 +1,67 @@
+
+.login {
+  min-width: 500px;
+  min-height: 600px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.login label {
+  font-size: 12px;
+  margin-left: 20px;
+}
+.login h3 {
+  text-align: center;
+  font-size: 20px;
+  color: #1d2129;
+  margin-bottom: 30px;
+}
+.login input {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 10px 20px;
+  width: 50%;
+  font-size: 0.8rem;
+}
+
+.login .btn {
+  background: #ff7200;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  margin: 5px 20px 10px 180px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  width: 30%;
+}
+.login .btn:active {
+  background-color: rgb(181, 244, 245);
+  transition: all ease-out 2s;
+}
+.login .alert-err {
+  width: 90%;
+  margin: 5px 5px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: red;
+  transition: all 0.5s ease-in-out;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.selOptions {
+  width: 350px;
+  margin-bottom: 30px;
+}
+
